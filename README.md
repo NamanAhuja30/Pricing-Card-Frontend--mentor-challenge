@@ -1,2 +1,2 @@
 # Pricing-Card-Frontend--mentor-challenge
-A implementation of frontend mentor code challenge
+An implementation of frontend mentor code challenge
