@@ -121,3 +121,24 @@ ul{
   font-size:0.9rem;
   opacity:0.8;
 }
+
+/* making it mobile screen friendly*/
+@media (max-width:650px){
+  #bottom-left-sec,#bottom-right-sec{
+    width:100%;
+  }
+  
+  #card{
+    width:100%;
+    height:auto;
+  }
+  
+  #bottom-left-sec{
+    height:300px;
+  }
+
+  button{
+    height:40%;
+  }
+}
+
