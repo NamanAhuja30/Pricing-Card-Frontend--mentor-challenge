@@ -123,7 +123,7 @@ ul{
 }
 
 /* making it mobile screen friendly*/
-@media (max-width:650px){
+@media only screen and (max-width:650px){
   #bottom-left-sec,#bottom-right-sec{
     width:100%;
   }
