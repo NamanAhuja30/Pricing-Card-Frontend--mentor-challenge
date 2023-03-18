@@ -134,6 +134,11 @@ ul{
     flex-direction:column;
   }
   
+  html, body {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}
+  
   #card{
   height:auto;
   }
