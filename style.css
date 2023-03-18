@@ -25,7 +25,6 @@ h2,h4,p {
   height: 400px;
   box-shadow: 4px 0px 33px 13px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
-  overflow: auto;
 }
 
 #top-sec {
@@ -39,14 +38,14 @@ h2,h4,p {
   width: 100%;
   height: 55%;
   color: white;
+  display:flex;
+  flex-direction:row;
 }
 
 #bottom-left-sec,#bottom-right-sec {
-  display: inline-block;
-  width: 50%;
+  flex-grow:1;
   height: 100%;
   padding: 25px;
-  vertical-align: top;
 }
 
 #bottom-left-sec {
@@ -122,16 +121,20 @@ ul{
   opacity:0.8;
 }
 
-/* making it mobile screen friendly*/
-@media only screen and (max-width:650px){
-  #bottom-left-sec,#bottom-right-sec{
+/*for mobile screens*/
+@media (max-width:650px){
+   #bottom-right-sec,#bottom-left-sec{
     width:100%;
   }
+ 
   
-  #card{
-    width:100%;
-    height:auto;
+  #bottom-sec{
+    display:flex;
+    flex-direction:column;
   }
   
+  button{
+    height:40%;
+    margin-bottom:15px;
+  }
 }
-
