@@ -43,7 +43,7 @@ h2,h4,p {
 }
 
 #bottom-left-sec,#bottom-right-sec {
-  flex-grow:1;
+  flex-basis:50%;
   height: 100%;
   padding: 25px;
 }
@@ -131,6 +131,10 @@ ul{
   #bottom-sec{
     display:flex;
     flex-direction:column;
+  }
+  
+  #card{
+  height:auto;
   }
   
   button{
